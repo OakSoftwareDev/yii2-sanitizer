@@ -1,6 +1,6 @@
 Change Log: yii2-sanitizer
 ========================
-## Version 1.0.1
+## Version 1.0.2
 
 **Date**: 14-Oct-2022
 
