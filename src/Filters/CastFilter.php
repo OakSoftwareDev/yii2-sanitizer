@@ -1,5 +1,5 @@
 <?php
-namespace raditzfarhan\Yii2Sanitizer\Filters;
+namespace oaksoftwaredev\Yii2Sanitizer\Filters;
 
 use yii\web\HttpException;
 
