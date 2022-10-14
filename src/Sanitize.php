@@ -1,5 +1,5 @@
 <?php 
-namespace raditzfarhan\Yii2Sanitizer;
+namespace oaksoftwaredev\Yii2Sanitizer;
 
 use Yii;
 use yii\base\Component;
@@ -8,15 +8,15 @@ use yii\web\HttpException;
 class Sanitize extends Component
 {
     protected $filters = [
-        'cast' => \raditzfarhan\Yii2Sanitizer\Filters\CastFilter::class,
-        'digit' => \raditzfarhan\Yii2Sanitizer\Filters\DigitFilter::class,
-        'encode' => \raditzfarhan\Yii2Sanitizer\Filters\EncodeFilter::class,
-        'escape' => \raditzfarhan\Yii2Sanitizer\Filters\EscapeFilter::class,
-        'float' => \raditzfarhan\Yii2Sanitizer\Filters\FloatFilter::class,
-        'int' => \raditzfarhan\Yii2Sanitizer\Filters\IntFilter::class,
-        'purify' => \raditzfarhan\Yii2Sanitizer\Filters\PurifyFilter::class,
-        'strip_tags' => \raditzfarhan\Yii2Sanitizer\Filters\StripTagsFilter::class,
-        'trim' => \raditzfarhan\Yii2Sanitizer\Filters\TrimFilter::class,   
+        'cast' => \oaksoftwaredev\Yii2Sanitizer\Filters\CastFilter::class,
+        'digit' => \oaksoftwaredev\Yii2Sanitizer\Filters\DigitFilter::class,
+        'encode' => \oaksoftwaredev\Yii2Sanitizer\Filters\EncodeFilter::class,
+        'escape' => \oaksoftwaredev\Yii2Sanitizer\Filters\EscapeFilter::class,
+        'float' => \oaksoftwaredev\Yii2Sanitizer\Filters\FloatFilter::class,
+        'int' => \oaksoftwaredev\Yii2Sanitizer\Filters\IntFilter::class,
+        'purify' => \oaksoftwaredev\Yii2Sanitizer\Filters\PurifyFilter::class,
+        'strip_tags' => \oaksoftwaredev\Yii2Sanitizer\Filters\StripTagsFilter::class,
+        'trim' => \oaksoftwaredev\Yii2Sanitizer\Filters\TrimFilter::class,   
     ];
 
     public function __construct($config = [])
