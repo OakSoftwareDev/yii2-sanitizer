@@ -1,6 +1,10 @@
 # Yii2 Sanitizer
 Yii2 Sanitizer is an easy way to sanitize or filter your inputs for application that uses [Yii2 framework](https://www.yiiframework.com/).
 
+## PHP 8.x
+
+2020-10-14 Forked to update for PHP 8.x
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -8,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require raditzfarhan/yii2-sanitizer "^1.0.0"
+composer require oaksoftwaredev/yii2-sanitizer "^1.0.0"
 ```
 
 or add
 
 ```
-"raditzfarhan/yii2-sanitizer": "^1.0.0"
+"oaksoftwaredev/yii2-sanitizer": "^1.0.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +34,7 @@ Add this to the component section of your main config.
 'components' => [
     ...
     'sanitizer' => [           
-        'class' => 'raditzfarhan\Yii2Sanitizer\Sanitize',                   
+        'class' => 'oaksoftwaredev\Yii2Sanitizer\Sanitize',                   
     ],
     ...
 ],
