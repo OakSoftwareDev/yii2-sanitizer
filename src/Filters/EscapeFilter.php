@@ -1,5 +1,5 @@
 <?php
-namespace raditzfarhan\Yii2Sanitizer\Filters;
+namespace oaksoftwaredev\Yii2Sanitizer\Filters;
 
 class EscapeFilter extends BaseFilter
 {
