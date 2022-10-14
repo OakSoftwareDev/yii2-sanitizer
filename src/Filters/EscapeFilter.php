@@ -11,6 +11,6 @@ class EscapeFilter extends BaseFilter
      */
     public function apply($value)
     {
-        return filter_var($value, FILTER_SANITIZE_MAGIC_QUOTES);
+        return filter_var($value, FILTER_SANITIZE_ADD_SLASHES);
     }
 }
