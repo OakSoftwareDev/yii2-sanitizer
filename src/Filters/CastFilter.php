@@ -26,8 +26,8 @@ class CastFilter extends BaseFilter
                 return filter_var($value, FILTER_SANITIZE_NUMBER_FLOAT);
                 break;
             case 'string':
-                return filter_var($value, FILTER_SANITIZE_STRING);
-                break;               
+                return filter_var($value, FILTER_UNSAFE_RAW);
+                break;
             default:
                 throw new \yii\web\HttpException(422, Yii::t('app', 'Please set an option.'));
         }
